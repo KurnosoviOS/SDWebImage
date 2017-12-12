@@ -1269,6 +1269,24 @@
 		AB615306192DA24600A2D8E9 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB615302192DA24600A2D8E9 /* UIView+WebCacheOperation.m */; };
 		ABBE71A718C43B4D00B75E91 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBE71A518C43B4D00B75E91 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABBE71A818C43B4D00B75E91 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE71A618C43B4D00B75E91 /* UIImageView+HighlightedWebCache.m */; };
+		EF36F0D91FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = EF36F0D71FDFF2500000CF4E /* NSCache+MemoryLimits.h */; };
+		EF36F0DA1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = EF36F0D71FDFF2500000CF4E /* NSCache+MemoryLimits.h */; };
+		EF36F0DB1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = EF36F0D71FDFF2500000CF4E /* NSCache+MemoryLimits.h */; };
+		EF36F0DC1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = EF36F0D71FDFF2500000CF4E /* NSCache+MemoryLimits.h */; };
+		EF36F0DD1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = EF36F0D71FDFF2500000CF4E /* NSCache+MemoryLimits.h */; };
+		EF36F0DE1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = EF36F0D71FDFF2500000CF4E /* NSCache+MemoryLimits.h */; };
+		EF36F0DF1FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = EF36F0D81FDFF2500000CF4E /* NSCache+MemoryLimits.m */; };
+		EF36F0E01FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = EF36F0D81FDFF2500000CF4E /* NSCache+MemoryLimits.m */; };
+		EF36F0E11FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = EF36F0D81FDFF2500000CF4E /* NSCache+MemoryLimits.m */; };
+		EF36F0E21FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = EF36F0D81FDFF2500000CF4E /* NSCache+MemoryLimits.m */; };
+		EF36F0E31FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = EF36F0D81FDFF2500000CF4E /* NSCache+MemoryLimits.m */; };
+		EF36F0E41FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = EF36F0D81FDFF2500000CF4E /* NSCache+MemoryLimits.m */; };
+		EFA643E51FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
+		EFA643E61FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
+		EFA643E71FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
+		EFA643E81FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
+		EFA643E91FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
+		EFA643EA1FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1497,6 +1515,10 @@
 		DA577CC81998E60B007367ED /* mux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux.h; sourceTree = "<group>"; };
 		DA577CC91998E60B007367ED /* mux_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux_types.h; sourceTree = "<group>"; };
 		DA577CCA1998E60B007367ED /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		EF36F0D71FDFF2500000CF4E /* NSCache+MemoryLimits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCache+MemoryLimits.h"; sourceTree = "<group>"; };
+		EF36F0D81FDFF2500000CF4E /* NSCache+MemoryLimits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCache+MemoryLimits.m"; sourceTree = "<group>"; };
+		EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryTrackingCache.m; sourceTree = "<group>"; };
+		EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryTrackingCache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1764,6 +1786,8 @@
 				321E60BD1F38E91700405457 /* UIImage+ForceDecode.m */,
 				AB615301192DA24600A2D8E9 /* UIView+WebCacheOperation.h */,
 				AB615302192DA24600A2D8E9 /* UIView+WebCacheOperation.m */,
+				EF36F0D71FDFF2500000CF4E /* NSCache+MemoryLimits.h */,
+				EF36F0D81FDFF2500000CF4E /* NSCache+MemoryLimits.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -1775,6 +1799,8 @@
 				53922D86148C56230056699D /* SDImageCache.m */,
 				43A918621D8308FE00B3925F /* SDImageCacheConfig.h */,
 				43A918631D8308FE00B3925F /* SDImageCacheConfig.m */,
+				EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */,
+				EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */,
 			);
 			name = Cache;
 			sourceTree = "<group>";
@@ -2022,6 +2048,7 @@
 				321E60891F38E8C800405457 /* SDWebImageCoder.h in Headers */,
 				00733A721BC4880E00A5A117 /* UIView+WebCacheOperation.h in Headers */,
 				80377C481F2F666300F89830 /* bit_reader_utils.h in Headers */,
+				EF36F0DC1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */,
 				80377C511F2F666300F89830 /* huffman_encode_utils.h in Headers */,
 				00733A6B1BC4880E00A5A117 /* NSData+ImageContentType.h in Headers */,
 				323F8C111F38EF770092B609 /* muxi.h in Headers */,
@@ -2061,6 +2088,7 @@
 				80377D261F2F66A700F89830 /* common_sse2.h in Headers */,
 				3290FA051FA478AF0047D20C /* SDWebImageFrame.h in Headers */,
 				80377C1D1F2F666300F89830 /* huffman_encode_utils.h in Headers */,
+				EF36F0DA1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */,
 				321E60B11F38E90100405457 /* SDWebImageWebPCoder.h in Headers */,
 				80377E9A1F2F66D400F89830 /* common_dec.h in Headers */,
 				80377C231F2F666300F89830 /* quant_levels_utils.h in Headers */,
@@ -2149,6 +2177,7 @@
 				80377C771F2F666400F89830 /* thread_utils.h in Headers */,
 				80377E1F1F2F66A800F89830 /* mips_macro.h in Headers */,
 				323F8B661F38EF770092B609 /* cost_enc.h in Headers */,
+				EF36F0DD1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */,
 				80377C621F2F666400F89830 /* bit_reader_utils.h in Headers */,
 				431BB6E21D06D2C1006A3455 /* UIImageView+HighlightedWebCache.h in Headers */,
 				43A62A1C1D0E0A800089D7DD /* demux.h in Headers */,
@@ -2263,6 +2292,7 @@
 				4397D2F61D0DE2DF00BB2784 /* NSImage+WebCache.h in Headers */,
 				4397D2E11D0DDD8C00BB2784 /* SDWebImageDownloader.h in Headers */,
 				323F8BFB1F38EF770092B609 /* animi.h in Headers */,
+				EF36F0DE1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */,
 				4397D2E31D0DDD8C00BB2784 /* MKAnnotationView+WebCache.h in Headers */,
 				4397D2E61D0DDD8C00BB2784 /* encode.h in Headers */,
 				80377C7C1F2F666400F89830 /* bit_reader_utils.h in Headers */,
@@ -2331,6 +2361,7 @@
 				321E60881F38E8C800405457 /* SDWebImageCoder.h in Headers */,
 				4A2CAE371AB4BB7500B6BC39 /* UIView+WebCacheOperation.h in Headers */,
 				80377C2E1F2F666300F89830 /* bit_reader_utils.h in Headers */,
+				EF36F0DB1FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */,
 				80377C371F2F666300F89830 /* huffman_encode_utils.h in Headers */,
 				4A2CAE2F1AB4BB7500B6BC39 /* UIImage+MultiFormat.h in Headers */,
 				323F8C101F38EF770092B609 /* muxi.h in Headers */,
@@ -2370,6 +2401,7 @@
 				431738BE1CDFC2660008FEB9 /* demux.h in Headers */,
 				80377BFC1F2F665300F89830 /* bit_writer_utils.h in Headers */,
 				32CF1C071FA496B000004BD1 /* SDWebImageCoderHelper.h in Headers */,
+				EF36F0D91FDFF2500000CF4E /* NSCache+MemoryLimits.h in Headers */,
 				431738BF1CDFC2660008FEB9 /* encode.h in Headers */,
 				53761316155AD0D5005750A4 /* SDImageCache.h in Headers */,
 				323F8C0E1F38EF770092B609 /* muxi.h in Headers */,
@@ -2686,6 +2718,7 @@
 				80377C501F2F666300F89830 /* huffman_encode_utils.c in Sources */,
 				80377DE51F2F66A700F89830 /* upsampling_neon.c in Sources */,
 				32CF1C101FA496B000004BD1 /* SDWebImageCoderHelper.m in Sources */,
+				EFA643E81FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
 				80377DAE1F2F66A700F89830 /* argb_sse2.c in Sources */,
 				323F8B7D1F38EF770092B609 /* frame_enc.c in Sources */,
 				80377EBB1F2F66D500F89830 /* frame_dec.c in Sources */,
@@ -2741,6 +2774,7 @@
 				80377DCB1F2F66A700F89830 /* filters.c in Sources */,
 				80377DAA1F2F66A700F89830 /* alpha_processing_sse2.c in Sources */,
 				43A9186E1D8308FE00B3925F /* SDImageCacheConfig.m in Sources */,
+				EF36F0E21FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */,
 				80377C471F2F666300F89830 /* bit_reader_utils.c in Sources */,
 				321E60AB1F38E8F600405457 /* SDWebImageGIFCoder.m in Sources */,
 				323F8BD51F38EF770092B609 /* tree_enc.c in Sources */,
@@ -2807,6 +2841,7 @@
 			files = (
 				80377E9F1F2F66D400F89830 /* tree_dec.c in Sources */,
 				80377D2C1F2F66A700F89830 /* dec_clip_tables.c in Sources */,
+				EFA643E61FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
 				323F8B971F38EF770092B609 /* near_lossless_enc.c in Sources */,
 				80377D531F2F66A700F89830 /* rescaler_mips_dsp_r2.c in Sources */,
 				43C8929C1D9D6DD90022038D /* anim_decode.c in Sources */,
@@ -2877,6 +2912,7 @@
 				80377D3C1F2F66A700F89830 /* enc.c in Sources */,
 				4314D13B1D0E0E3B004B36C9 /* UIButton+WebCache.m in Sources */,
 				321E60C51F38E91700405457 /* UIImage+ForceDecode.m in Sources */,
+				EF36F0E01FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */,
 				80377D461F2F66A700F89830 /* lossless_enc_neon.c in Sources */,
 				80377E9B1F2F66D400F89830 /* frame_dec.c in Sources */,
 				80377C1C1F2F666300F89830 /* huffman_encode_utils.c in Sources */,
@@ -2950,6 +2986,7 @@
 			files = (
 				80377ECF1F2F66D500F89830 /* tree_dec.c in Sources */,
 				80377DFB1F2F66A800F89830 /* dec_clip_tables.c in Sources */,
+				EFA643E91FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
 				323F8B9A1F38EF770092B609 /* near_lossless_enc.c in Sources */,
 				80377E221F2F66A800F89830 /* rescaler_mips_dsp_r2.c in Sources */,
 				431BB68C1D06D2C1006A3455 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -3020,6 +3057,7 @@
 				80377E0B1F2F66A800F89830 /* enc.c in Sources */,
 				431BB6AC1D06D2C1006A3455 /* SDWebImageCompat.m in Sources */,
 				80377E151F2F66A800F89830 /* lossless_enc_neon.c in Sources */,
+				EF36F0E31FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */,
 				321E60C81F38E91700405457 /* UIImage+ForceDecode.m in Sources */,
 				80377C721F2F666400F89830 /* random_utils.c in Sources */,
 				80377ECB1F2F66D500F89830 /* frame_dec.c in Sources */,
@@ -3101,6 +3139,7 @@
 				80377C8A1F2F666400F89830 /* quant_levels_utils.c in Sources */,
 				4397D27F1D0DDD8C00BB2784 /* UIImage+WebP.m in Sources */,
 				4397D2F71D0DE2DF00BB2784 /* NSImage+WebCache.m in Sources */,
+				EF36F0E41FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */,
 				80377E751F2F66A800F89830 /* yuv.c in Sources */,
 				43C892A01D9D6DDA0022038D /* anim_decode.c in Sources */,
 				80377E4A1F2F66A800F89830 /* enc_mips_dsp_r2.c in Sources */,
@@ -3110,6 +3149,7 @@
 				80377E721F2F66A800F89830 /* yuv_mips_dsp_r2.c in Sources */,
 				323F8BA71F38EF770092B609 /* picture_enc.c in Sources */,
 				80377E601F2F66A800F89830 /* lossless_neon.c in Sources */,
+				EFA643EA1FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
 				80377E461F2F66A800F89830 /* dec_sse41.c in Sources */,
 				43C892A51D9D6DDE0022038D /* demux.c in Sources */,
 				80377E3E1F2F66A800F89830 /* cost.c in Sources */,
@@ -3264,6 +3304,7 @@
 				80377DA01F2F66A700F89830 /* upsampling_neon.c in Sources */,
 				80377D691F2F66A700F89830 /* argb_sse2.c in Sources */,
 				32CF1C0F1FA496B000004BD1 /* SDWebImageCoderHelper.m in Sources */,
+				EFA643E71FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
 				80377D6A1F2F66A700F89830 /* argb.c in Sources */,
 				323F8B7C1F38EF770092B609 /* frame_enc.c in Sources */,
 				80377EAB1F2F66D400F89830 /* frame_dec.c in Sources */,
@@ -3319,6 +3360,7 @@
 				80377D7C1F2F66A700F89830 /* enc_mips32.c in Sources */,
 				80377D771F2F66A700F89830 /* dec_sse41.c in Sources */,
 				80377D891F2F66A700F89830 /* lossless_enc_mips32.c in Sources */,
+				EF36F0E11FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */,
 				80377D861F2F66A700F89830 /* filters.c in Sources */,
 				321E60AA1F38E8F600405457 /* SDWebImageGIFCoder.m in Sources */,
 				323F8BD41F38EF770092B609 /* tree_enc.c in Sources */,
@@ -3411,6 +3453,7 @@
 				80377CDF1F2F66A100F89830 /* argb_sse2.c in Sources */,
 				80377CE01F2F66A100F89830 /* argb.c in Sources */,
 				32CF1C0D1FA496B000004BD1 /* SDWebImageCoderHelper.m in Sources */,
+				EFA643E51FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
 				323F8B7A1F38EF770092B609 /* frame_enc.c in Sources */,
 				80377E8B1F2F66D000F89830 /* frame_dec.c in Sources */,
 				43C8929A1D9D6DD70022038D /* anim_decode.c in Sources */,
@@ -3466,6 +3509,7 @@
 				80377CED1F2F66A100F89830 /* dec_sse41.c in Sources */,
 				80377CFF1F2F66A100F89830 /* lossless_enc_mips32.c in Sources */,
 				80377CFC1F2F66A100F89830 /* filters.c in Sources */,
+				EF36F0DF1FDFF2500000CF4E /* NSCache+MemoryLimits.m in Sources */,
 				321E60A81F38E8F600405457 /* SDWebImageGIFCoder.m in Sources */,
 				323F8BD21F38EF770092B609 /* tree_enc.c in Sources */,
 				80377CDB1F2F66A100F89830 /* alpha_processing_sse2.c in Sources */,

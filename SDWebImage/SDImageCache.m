@@ -11,6 +11,8 @@
 #import "NSImage+WebCache.h"
 #import "SDWebImageCodersManager.h"
 
+#import "MemoryTrackingCache.h"
+
 // See https://github.com/rs/SDWebImage/pull/1141 for discussion
 @interface AutoPurgeCache : NSCache
 @end
@@ -90,7 +92,7 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
         _config = [[SDImageCacheConfig alloc] init];
         
         // Init the memory cache
-        _memCache = [[AutoPurgeCache alloc] init];
+        _memCache = [[MemoryTrackingCache alloc] init];
         _memCache.name = fullNamespace;
 
         // Init the disk cache
@@ -531,10 +533,6 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
         if (self.config.maxCacheSize > 0 && currentCacheSize > self.config.maxCacheSize) {
             // Target half of our maximum cache size for this cleanup pass.
             const NSUInteger desiredCacheSize = self.config.maxCacheSize / 2;
-            
-#warning at this point total cache clearing. If we calculate memCache key, no need to do this;
-            [[self memCache] removeAllObjects];
-
             // Sort the remaining cache files by their last modification time (oldest first).
             NSArray<NSURL *> *sortedFiles = [cacheFiles keysSortedByValueWithOptions:NSSortConcurrent
                                                                      usingComparator:^NSComparisonResult(id obj1, id obj2) {
@@ -544,9 +542,6 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
             // Delete files until we fall below our desired cache size.
             for (NSURL *fileURL in sortedFiles) {
                 if ([_fileManager removeItemAtURL:fileURL error:nil]) {
-                    
-#warning need to calculate memCache key for URL
-                    //[self memCache] removeObjectForKey:<#(nonnull id)#>
                     
                     NSDictionary<NSString *, id> *resourceValues = cacheFiles[fileURL];
                     NSNumber *totalAllocatedSize = resourceValues[NSURLTotalFileAllocatedSizeKey];
