@@ -531,6 +531,9 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
         if (self.config.maxCacheSize > 0 && currentCacheSize > self.config.maxCacheSize) {
             // Target half of our maximum cache size for this cleanup pass.
             const NSUInteger desiredCacheSize = self.config.maxCacheSize / 2;
+            
+#warning at this point total cache clearing. If we calculate memCache key, no need to do this;
+            [[self memCache] removeAllObjects];
 
             // Sort the remaining cache files by their last modification time (oldest first).
             NSArray<NSURL *> *sortedFiles = [cacheFiles keysSortedByValueWithOptions:NSSortConcurrent
@@ -541,6 +544,10 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
             // Delete files until we fall below our desired cache size.
             for (NSURL *fileURL in sortedFiles) {
                 if ([_fileManager removeItemAtURL:fileURL error:nil]) {
+                    
+#warning need to calculate memCache key for URL
+                    //[self memCache] removeObjectForKey:<#(nonnull id)#>
+                    
                     NSDictionary<NSString *, id> *resourceValues = cacheFiles[fileURL];
                     NSNumber *totalAllocatedSize = resourceValues[NSURLTotalFileAllocatedSizeKey];
                     currentCacheSize -= totalAllocatedSize.unsignedIntegerValue;
