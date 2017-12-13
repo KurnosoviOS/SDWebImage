@@ -9,7 +9,7 @@
 #ifndef MemoryTrackingCache_h
 #define MemoryTrackingCache_h
 
-@interface MemoryTrackingCache : NSCache
+@interface SDMemoryTrackingCache : NSCache
 
 @property (assign, nonatomic) NSUInteger trackingMemorySize;
 

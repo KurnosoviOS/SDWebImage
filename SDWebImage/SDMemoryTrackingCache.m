@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MemoryTrackingCache.h"
+#import "SDMemoryTrackingCache.h"
 
 @interface CacheItemInfo : NSObject
 
@@ -32,7 +32,7 @@
 
 @end
 
-@implementation MemoryTrackingCache {
+@implementation SDMemoryTrackingCache {
     NSMutableDictionary<id, CacheItemInfo *> *cachedItems;
     void(^deletingProcess)(void);
 }

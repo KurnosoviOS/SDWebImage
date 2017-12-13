@@ -11,7 +11,7 @@
 #import "NSImage+WebCache.h"
 #import "SDWebImageCodersManager.h"
 
-#import "MemoryTrackingCache.h"
+#import "SDMemoryTrackingCache.h"
 
 // See https://github.com/rs/SDWebImage/pull/1141 for discussion
 @interface AutoPurgeCache : NSCache
@@ -92,7 +92,7 @@ FOUNDATION_STATIC_INLINE NSUInteger SDCacheCostForImage(UIImage *image) {
         _config = [[SDImageCacheConfig alloc] init];
         
         // Init the memory cache
-        _memCache = [[MemoryTrackingCache alloc] init];
+        _memCache = [[SDMemoryTrackingCache alloc] init];
         _memCache.name = fullNamespace;
 
         // Init the disk cache

@@ -1269,18 +1269,18 @@
 		AB615306192DA24600A2D8E9 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB615302192DA24600A2D8E9 /* UIView+WebCacheOperation.m */; };
 		ABBE71A718C43B4D00B75E91 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBE71A518C43B4D00B75E91 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABBE71A818C43B4D00B75E91 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE71A618C43B4D00B75E91 /* UIImageView+HighlightedWebCache.m */; };
-		EFA643E51FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
-		EFA643E61FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
-		EFA643E71FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
-		EFA643E81FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
-		EFA643E91FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
-		EFA643EA1FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */; };
-		EFA643F71FE0F0A3000FF21E /* MemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */; };
-		EFA643F81FE0F0A3000FF21E /* MemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */; };
-		EFA643FB1FE0F0A8000FF21E /* MemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */; };
-		EFA643FC1FE0F0A9000FF21E /* MemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */; };
-		EFA643FD1FE0F0AA000FF21E /* MemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */; };
-		EFA643FE1FE0F0AA000FF21E /* MemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */; };
+		EFA643E51FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* SDMemoryTrackingCache.m */; };
+		EFA643E61FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* SDMemoryTrackingCache.m */; };
+		EFA643E71FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* SDMemoryTrackingCache.m */; };
+		EFA643E81FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* SDMemoryTrackingCache.m */; };
+		EFA643E91FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* SDMemoryTrackingCache.m */; };
+		EFA643EA1FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA643E41FE01ED5000FF21E /* SDMemoryTrackingCache.m */; };
+		EFA643F71FE0F0A3000FF21E /* SDMemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* SDMemoryTrackingCache.h */; };
+		EFA643F81FE0F0A3000FF21E /* SDMemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* SDMemoryTrackingCache.h */; };
+		EFA643FB1FE0F0A8000FF21E /* SDMemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* SDMemoryTrackingCache.h */; };
+		EFA643FC1FE0F0A9000FF21E /* SDMemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* SDMemoryTrackingCache.h */; };
+		EFA643FD1FE0F0AA000FF21E /* SDMemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* SDMemoryTrackingCache.h */; };
+		EFA643FE1FE0F0AA000FF21E /* SDMemoryTrackingCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA643EB1FE02073000FF21E /* SDMemoryTrackingCache.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1509,8 +1509,8 @@
 		DA577CC81998E60B007367ED /* mux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux.h; sourceTree = "<group>"; };
 		DA577CC91998E60B007367ED /* mux_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mux_types.h; sourceTree = "<group>"; };
 		DA577CCA1998E60B007367ED /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
-		EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryTrackingCache.m; sourceTree = "<group>"; };
-		EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryTrackingCache.h; sourceTree = "<group>"; };
+		EFA643E41FE01ED5000FF21E /* SDMemoryTrackingCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDMemoryTrackingCache.m; sourceTree = "<group>"; };
+		EFA643EB1FE02073000FF21E /* SDMemoryTrackingCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDMemoryTrackingCache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1789,8 +1789,8 @@
 				53922D86148C56230056699D /* SDImageCache.m */,
 				43A918621D8308FE00B3925F /* SDImageCacheConfig.h */,
 				43A918631D8308FE00B3925F /* SDImageCacheConfig.m */,
-				EFA643E41FE01ED5000FF21E /* MemoryTrackingCache.m */,
-				EFA643EB1FE02073000FF21E /* MemoryTrackingCache.h */,
+				EFA643E41FE01ED5000FF21E /* SDMemoryTrackingCache.m */,
+				EFA643EB1FE02073000FF21E /* SDMemoryTrackingCache.h */,
 			);
 			name = Cache;
 			sourceTree = "<group>";
@@ -1998,7 +1998,7 @@
 				80377DDA1F2F66A700F89830 /* mips_macro.h in Headers */,
 				80377C571F2F666300F89830 /* quant_levels_utils.h in Headers */,
 				323F8B531F38EF770092B609 /* backward_references_enc.h in Headers */,
-				EFA643FC1FE0F0A9000FF21E /* MemoryTrackingCache.h in Headers */,
+				EFA643FC1FE0F0A9000FF21E /* SDMemoryTrackingCache.h in Headers */,
 				4317395A1CDFC8B70008FEB9 /* mux_types.h in Headers */,
 				431739561CDFC8B70008FEB9 /* demux.h in Headers */,
 				80377C4A1F2F666300F89830 /* bit_writer_utils.h in Headers */,
@@ -2118,7 +2118,7 @@
 				4314D1781D0E0E3B004B36C9 /* SDWebImageDownloader.h in Headers */,
 				80377E981F2F66D400F89830 /* alphai_dec.h in Headers */,
 				4314D1791D0E0E3B004B36C9 /* SDWebImageManager.h in Headers */,
-				EFA643F81FE0F0A3000FF21E /* MemoryTrackingCache.h in Headers */,
+				EFA643F81FE0F0A3000FF21E /* SDMemoryTrackingCache.h in Headers */,
 				323F8BE51F38EF770092B609 /* vp8li_enc.h in Headers */,
 				80377C191F2F666300F89830 /* endian_inl_utils.h in Headers */,
 				321E60A31F38E8F600405457 /* SDWebImageGIFCoder.h in Headers */,
@@ -2189,7 +2189,7 @@
 				431BB6EB1D06D2C1006A3455 /* UIView+WebCacheOperation.h in Headers */,
 				80377C6D1F2F666400F89830 /* huffman_utils.h in Headers */,
 				80377C731F2F666400F89830 /* random_utils.h in Headers */,
-				EFA643FD1FE0F0AA000FF21E /* MemoryTrackingCache.h in Headers */,
+				EFA643FD1FE0F0AA000FF21E /* SDMemoryTrackingCache.h in Headers */,
 				431BB6EE1D06D2C1006A3455 /* NSData+ImageContentType.h in Headers */,
 				431BB6EF1D06D2C1006A3455 /* SDWebImagePrefetcher.h in Headers */,
 				80377C671F2F666400F89830 /* endian_inl_utils.h in Headers */,
@@ -2229,7 +2229,7 @@
 			files = (
 				80377C7E1F2F666400F89830 /* bit_writer_utils.h in Headers */,
 				80377ED81F2F66D500F89830 /* alphai_dec.h in Headers */,
-				EFA643FE1FE0F0AA000FF21E /* MemoryTrackingCache.h in Headers */,
+				EFA643FE1FE0F0AA000FF21E /* SDMemoryTrackingCache.h in Headers */,
 				321E60A71F38E8F600405457 /* SDWebImageGIFCoder.h in Headers */,
 				80377EDA1F2F66D500F89830 /* common_dec.h in Headers */,
 				80377EE61F2F66D500F89830 /* webpi_dec.h in Headers */,
@@ -2311,7 +2311,7 @@
 				80377D951F2F66A700F89830 /* mips_macro.h in Headers */,
 				80377C3D1F2F666300F89830 /* quant_levels_utils.h in Headers */,
 				323F8B521F38EF770092B609 /* backward_references_enc.h in Headers */,
-				EFA643FB1FE0F0A8000FF21E /* MemoryTrackingCache.h in Headers */,
+				EFA643FB1FE0F0A8000FF21E /* SDMemoryTrackingCache.h in Headers */,
 				4317394F1CDFC8B70008FEB9 /* demux.h in Headers */,
 				43CE757D1CFE9427006C64D0 /* FLAnimatedImageView.h in Headers */,
 				80377C301F2F666300F89830 /* bit_writer_utils.h in Headers */,
@@ -2415,7 +2415,7 @@
 				5376131A155AD0D5005750A4 /* SDWebImageDownloader.h in Headers */,
 				4369C2771D9807EC007E863A /* UIView+WebCache.h in Headers */,
 				80377CEF1F2F66A100F89830 /* dsp.h in Headers */,
-				EFA643F71FE0F0A3000FF21E /* MemoryTrackingCache.h in Headers */,
+				EFA643F71FE0F0A3000FF21E /* SDMemoryTrackingCache.h in Headers */,
 				80377C011F2F665300F89830 /* filters_utils.h in Headers */,
 				5376131C155AD0D5005750A4 /* SDWebImageManager.h in Headers */,
 				438096741CDFC09C00DC626B /* UIImage+WebP.h in Headers */,
@@ -2708,7 +2708,7 @@
 				80377C501F2F666300F89830 /* huffman_encode_utils.c in Sources */,
 				80377DE51F2F66A700F89830 /* upsampling_neon.c in Sources */,
 				32CF1C101FA496B000004BD1 /* SDWebImageCoderHelper.m in Sources */,
-				EFA643E81FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
+				EFA643E81FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */,
 				80377DAE1F2F66A700F89830 /* argb_sse2.c in Sources */,
 				323F8B7D1F38EF770092B609 /* frame_enc.c in Sources */,
 				80377EBB1F2F66D500F89830 /* frame_dec.c in Sources */,
@@ -2830,7 +2830,7 @@
 			files = (
 				80377E9F1F2F66D400F89830 /* tree_dec.c in Sources */,
 				80377D2C1F2F66A700F89830 /* dec_clip_tables.c in Sources */,
-				EFA643E61FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
+				EFA643E61FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */,
 				323F8B971F38EF770092B609 /* near_lossless_enc.c in Sources */,
 				80377D531F2F66A700F89830 /* rescaler_mips_dsp_r2.c in Sources */,
 				43C8929C1D9D6DD90022038D /* anim_decode.c in Sources */,
@@ -2974,7 +2974,7 @@
 			files = (
 				80377ECF1F2F66D500F89830 /* tree_dec.c in Sources */,
 				80377DFB1F2F66A800F89830 /* dec_clip_tables.c in Sources */,
-				EFA643E91FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
+				EFA643E91FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */,
 				323F8B9A1F38EF770092B609 /* near_lossless_enc.c in Sources */,
 				80377E221F2F66A800F89830 /* rescaler_mips_dsp_r2.c in Sources */,
 				431BB68C1D06D2C1006A3455 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -3135,7 +3135,7 @@
 				80377E721F2F66A800F89830 /* yuv_mips_dsp_r2.c in Sources */,
 				323F8BA71F38EF770092B609 /* picture_enc.c in Sources */,
 				80377E601F2F66A800F89830 /* lossless_neon.c in Sources */,
-				EFA643EA1FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
+				EFA643EA1FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */,
 				80377E461F2F66A800F89830 /* dec_sse41.c in Sources */,
 				43C892A51D9D6DDE0022038D /* demux.c in Sources */,
 				80377E3E1F2F66A800F89830 /* cost.c in Sources */,
@@ -3290,7 +3290,7 @@
 				80377DA01F2F66A700F89830 /* upsampling_neon.c in Sources */,
 				80377D691F2F66A700F89830 /* argb_sse2.c in Sources */,
 				32CF1C0F1FA496B000004BD1 /* SDWebImageCoderHelper.m in Sources */,
-				EFA643E71FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
+				EFA643E71FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */,
 				80377D6A1F2F66A700F89830 /* argb.c in Sources */,
 				323F8B7C1F38EF770092B609 /* frame_enc.c in Sources */,
 				80377EAB1F2F66D400F89830 /* frame_dec.c in Sources */,
@@ -3438,7 +3438,7 @@
 				80377CDF1F2F66A100F89830 /* argb_sse2.c in Sources */,
 				80377CE01F2F66A100F89830 /* argb.c in Sources */,
 				32CF1C0D1FA496B000004BD1 /* SDWebImageCoderHelper.m in Sources */,
-				EFA643E51FE01ED5000FF21E /* MemoryTrackingCache.m in Sources */,
+				EFA643E51FE01ED5000FF21E /* SDMemoryTrackingCache.m in Sources */,
 				323F8B7A1F38EF770092B609 /* frame_enc.c in Sources */,
 				80377E8B1F2F66D000F89830 /* frame_dec.c in Sources */,
 				43C8929A1D9D6DD70022038D /* anim_decode.c in Sources */,
