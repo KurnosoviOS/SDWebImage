@@ -40,7 +40,7 @@
 - (void) setObject:(id)obj forKey:(id)key cost:(NSUInteger)g {
     @synchronized (self) {
         
-        [super setObject:obj forKey:key];
+        [super setObject:obj forKey:key cost:g];
         
         if (g == 0) return;
         
